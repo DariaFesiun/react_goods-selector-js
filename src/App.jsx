@@ -22,7 +22,7 @@ export const App = () => {
   return (
     <main className="section container">
       <h1 className="title is-flex is-align-items-center">
-       {selectedGood ? (
+        {selectedGood ? (
           <>
             {selectedGood} is selected
             <button
@@ -73,5 +73,5 @@ export const App = () => {
         </tbody>
       </table>
     </main>
-  )
+  );
 };
